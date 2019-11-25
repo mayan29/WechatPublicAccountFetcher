@@ -97,7 +97,7 @@
     }
     
     NSDateFormatter *formatter = [[NSDateFormatter alloc] init];
-    formatter.dateFormat = @"YYYY年MM月dd日 hh点mm分";
+    formatter.dateFormat = @"YYYY-MM-dd";
     formatter.locale = [NSLocale currentLocale];
     
     NSString *minDate = [formatter stringFromDate:[NSDate dateWithTimeIntervalSince1970:min]];
