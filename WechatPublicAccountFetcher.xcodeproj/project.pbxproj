@@ -13,6 +13,8 @@
 		BC97F277238A457B005B5646 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BC97F276238A457B005B5646 /* Assets.xcassets */; };
 		BC97F27A238A457B005B5646 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC97F278238A457B005B5646 /* LaunchScreen.storyboard */; };
 		BC97F27D238A457B005B5646 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BC97F27C238A457B005B5646 /* main.m */; };
+		BCF5DC6D24BF0641000FD79F /* Fetcher.m in Sources */ = {isa = PBXBuildFile; fileRef = BCF5DC6C24BF0641000FD79F /* Fetcher.m */; };
+		BCF5DC7024BF075A000FD79F /* Arranger.m in Sources */ = {isa = PBXBuildFile; fileRef = BCF5DC6F24BF075A000FD79F /* Arranger.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,10 @@
 		BC97F279238A457B005B5646 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BC97F27B238A457B005B5646 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BC97F27C238A457B005B5646 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BCF5DC6B24BF0641000FD79F /* Fetcher.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Fetcher.h; sourceTree = "<group>"; };
+		BCF5DC6C24BF0641000FD79F /* Fetcher.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Fetcher.m; sourceTree = "<group>"; };
+		BCF5DC6E24BF075A000FD79F /* Arranger.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Arranger.h; sourceTree = "<group>"; };
+		BCF5DC6F24BF075A000FD79F /* Arranger.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Arranger.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +68,10 @@
 				BC97F26B238A457A005B5646 /* AppDelegate.m */,
 				BC97F270238A457A005B5646 /* ViewController.h */,
 				BC97F271238A457A005B5646 /* ViewController.m */,
+				BCF5DC6B24BF0641000FD79F /* Fetcher.h */,
+				BCF5DC6C24BF0641000FD79F /* Fetcher.m */,
+				BCF5DC6E24BF075A000FD79F /* Arranger.h */,
+				BCF5DC6F24BF075A000FD79F /* Arranger.m */,
 				BC97F273238A457A005B5646 /* Main.storyboard */,
 				BC97F276238A457B005B5646 /* Assets.xcassets */,
 				BC97F278238A457B005B5646 /* LaunchScreen.storyboard */,
@@ -142,8 +152,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				BC97F272238A457A005B5646 /* ViewController.m in Sources */,
+				BCF5DC6D24BF0641000FD79F /* Fetcher.m in Sources */,
 				BC97F26C238A457A005B5646 /* AppDelegate.m in Sources */,
 				BC97F27D238A457B005B5646 /* main.m in Sources */,
+				BCF5DC7024BF075A000FD79F /* Arranger.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

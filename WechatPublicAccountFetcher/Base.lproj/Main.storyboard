@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15510"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -17,7 +17,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LY8-rK-b5T">
-                                <rect key="frame" x="120" y="94" width="174" height="34"/>
+                                <rect key="frame" x="120" y="144" width="174" height="34"/>
                                 <color key="backgroundColor" red="0.76985056948475783" green="1" blue="0.83346530253443574" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <state key="normal" title="Start Fetch">
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -26,12 +26,25 @@
                                     <action selector="fetchButtonClick:" destination="BYZ-38-t0r" eventType="touchUpInside" id="7bb-lo-36H"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WCg-8c-39F">
+                                <rect key="frame" x="120" y="278" width="174" height="34"/>
+                                <color key="backgroundColor" red="0.76985056949999997" green="1" blue="0.83346530249999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <state key="normal" title="Start Arrange">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="arrangeButtonClick:" destination="BYZ-38-t0r" eventType="touchUpInside" id="hhh-wL-Y4V"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
                             <constraint firstItem="LY8-rK-b5T" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="120" id="R2d-uy-aj2"/>
+                            <constraint firstItem="WCg-8c-39F" firstAttribute="trailing" secondItem="LY8-rK-b5T" secondAttribute="trailing" id="dwW-GW-nzt"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="LY8-rK-b5T" secondAttribute="trailing" constant="120" id="hV5-tG-w3O"/>
-                            <constraint firstItem="LY8-rK-b5T" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="50" id="oob-0k-n1V"/>
+                            <constraint firstItem="LY8-rK-b5T" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="100" id="oob-0k-n1V"/>
+                            <constraint firstItem="WCg-8c-39F" firstAttribute="top" secondItem="LY8-rK-b5T" secondAttribute="bottom" constant="100" id="rI1-h3-hN7"/>
+                            <constraint firstItem="WCg-8c-39F" firstAttribute="leading" secondItem="LY8-rK-b5T" secondAttribute="leading" id="vZg-MS-mk0"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
