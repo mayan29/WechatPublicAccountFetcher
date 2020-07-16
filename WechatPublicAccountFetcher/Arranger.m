@@ -21,8 +21,8 @@
 
 - (void)arrangeGeneralMsgList {
     // 自定义文件目录
-    NSString *inputPath = @"/Users/may-g/Desktop/Intput/wow36kr";
-    NSString *outputPath = @"/Users/may-g/Desktop/Output";
+    NSString *inputPath = @"/Users/may-g/Desktop/WechatPublicAccountResource/Input/wow36kr";
+    NSString *outputPath = @"/Users/may-g/Desktop/WechatPublicAccountResource/Output";
     
     NSArray *dir = [[NSFileManager defaultManager] contentsOfDirectoryAtPath:inputPath error:nil];
     
