@@ -83,7 +83,8 @@
                     @"title": app_msg_ext_info[@"title"],
                     @"digest": app_msg_ext_info[@"digest"],
                     @"content_url": app_msg_ext_info[@"content_url"],
-                    @"source_url": app_msg_ext_info[@"source_url"]
+                    @"cover": app_msg_ext_info[@"cover"],
+                    @"author": app_msg_ext_info[@"author"]
                 };
                 [msglist addObject:data];
             }
@@ -97,7 +98,8 @@
                         @"title": multi_app_msg_item[@"title"],
                         @"digest": multi_app_msg_item[@"digest"],
                         @"content_url": multi_app_msg_item[@"content_url"],
-                        @"source_url": multi_app_msg_item[@"source_url"]
+                        @"cover": multi_app_msg_item[@"cover"],
+                        @"author": app_msg_ext_info[@"author"]
                     };
                     [msglist addObject:data];
                 }
