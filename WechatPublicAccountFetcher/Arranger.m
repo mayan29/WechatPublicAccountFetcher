@@ -70,7 +70,7 @@
         if (image_msg_ext_info) {
             NSDictionary *data = @{
                 @"title": @"图片",
-                @"content_url": image_msg_ext_info[@"cdn_url"]
+                @"cover": image_msg_ext_info[@"cdn_url"]
             };
             [msglist addObject:data];
         }
